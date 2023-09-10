@@ -1,4 +1,4 @@
-let timer = 60;
+let timer = 6;
 let ranNu;
 let Score = 0;
 const whiteConteiner = document.querySelector("#Pbtm");
@@ -30,7 +30,7 @@ const RunTimer = () => {
       whiteConteiner.innerHTML = ` <div>
       <h2>Game Over</h2>
       <p style="color:rgb(220,0,0);font-size:20px">Score: ${Score}</p>
-      <button onclick="btnclick()">Restart</button>
+      <button onclick="btnclick()">Try Again</button>
       </div>  `;
 
     }
@@ -56,7 +56,7 @@ whiteConteiner.addEventListener('click', (details) => {
 })
 
 const btnclick = ()=>{
-  location.reload();
+  window.location.reload();
   
 }
 
