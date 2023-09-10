@@ -1,4 +1,4 @@
-let timer = 6;
+let timer = 60;
 let ranNu;
 let Score = 0;
 const whiteConteiner = document.querySelector("#Pbtm");
